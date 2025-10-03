@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>2Accept — Team Email Signatures</title>
+<title>2Accept — Team Email Signatures (full size)</title>
 <style>
   body{font:14px/1.4 Arial,Helvetica,sans-serif;background:#fff;margin:24px;color:#111}
   h1{font-size:20px;margin:0 0 16px}
@@ -63,7 +63,7 @@ const TEAM = [
   { name: "Jared Smith",   email: "jared@2accept.com",    phone: "702-521-5110", website: "https://www.2accept.com" }
 ];
 
-/*** 3) Signature HTML ***/
+/*** 3) Signature HTML (full size) ***/
 function signatureHtml(person){
   const websiteText  = (person.website || "").replace(/^https?:\/\//,'');
   const phoneDigits  = (person.phone || "").replace(/[^0-9]/g,'');
@@ -163,6 +163,3 @@ Tip: Highlight any signature above, then copy and paste into Gmail → Settings 
 </p>
 </body>
 </html>
-
-
-
